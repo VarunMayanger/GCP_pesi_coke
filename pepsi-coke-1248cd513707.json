@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pepsi-coke",
+  "private_key_id": "1248cd5137074d4d382f0086b4860a6ddadd1945",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4o8oKKSXaHetj\nmMElf0u+sKQTrnSIscgIa0B32/K4VqYhtWsF0gDamtRS2GGHI4NOnq61yz5pc6fC\nfW0LGH7mjfjM80YWkHyoFYGrqS3q2krjyvoiwltLmclFpX1wddF3lIHon93VkMUu\n7eRIFiDMD0j3KIHHdkMXNQKvta5Cx9oxZTX+U/rrMGEF5sw+gvWwTwndgv9Xx63g\nYNn+gyV0o3tr/lXVhNO72mSs3+vhkV+FyUqbpz+lIEYo1Zk25k0Ac5iCRWGL4fpA\nFB5uR54vlvIfpIbtRy33k0gASikOojsJtxA79EivPSopCb89LVD7ifBfGXjXyHGM\ndaVS/csdAgMBAAECggEABkyCIzwZoDoGknh+2FRiJWB5zHkWXSZxfEYKZjxg6KR+\nGObLPqDWKh7/kM70bsuJmnhD3gxPtgG9zp8ARhFhHOTpgLZo5PKragGH0a8dE6a8\nSM6fH2nxeuAFc4SMhbZjPbjZgLHZe8RrUalIcSQeHNAFrXbajI8uhT9n9s4UIo+H\nfn/SqmAv/WbQ1ng4nV2BHsqvAPAa88iWIZ7yexV5bgh1cIwgPMHdYfiB/n6CUZst\nXOnpQmHZiLZCJM55L18W5zgZJc/CqJVmKfl2Qsqe1jOHMI+/Y24wZQlhsJ+dkq6m\n2FOAbgWBPjoS7UcefeLHub/cpHd+w1im3kVKvONLEQKBgQDcLcEjtQX3GdlP+n7B\nMXki8xdCvbDHdcECY97DGYPBwjcrflBEjiY/05qfkewlWl1XuF8IRGUohbU4a1HH\n/I6Kjv50mIs6jG2+aQaLH/7i4xVtXk7dNwamTHOmLBougQmXYgcms07osG+0ApD4\nsV4gaJqda0t3R5uPxGEeNBvMDQKBgQDWrd7ZjlaW4veZ18mXDK5k7O5KVK4w6TTp\nAgnK3Go/bWP8Od/JU7lc0k5CMxVYpjvn9c2gvlsIbj+lGxQ8MQINHvyVe0yw4JbB\ntV/u77fe5qvIW+RliJ0gKRo5fMlj4+8zTTCrjm+V5lHlLYl9osPBXAye29ubCz9D\nhMqWKD1nUQKBgQCW7VZDn8cjBzkLte5FiCA9cN01BsqzL2jKtqLwogDLRNKEoeVr\n2PUnM2n+kAyL3lG129Bo3llpWZ5LumUo7VrYaATM7/QggjqIF35AyAH0jS0W91qg\nESQhwq5T7k9UKWfluXCleqxQnQE1J70wfITFOm8iEXZ9oTxlZHweNCIJ0QKBgQDR\nLDim4fmcqyl1zLuvYbvKutCzvC69mXzkTAgekQU1J/D0Ia/bCqjhuEhoWD3EUrSs\nHuRsaw1n+YQp62ib/WRyRG73d1wSO8Kom4EN3qTZmwhmAKNaCvKOE35p5RyVJ9I5\nukxh3Db9Z50EIIqGz8DM9lOVtcMUHrFVqF18UVkDAQKBgBgTqV78DUEFEHXgfr9k\nC2GHEDZZQIhiXbRJY35crqSdoe6oYWdYCGndObzLX/nIXq6SABw8XLaudlky/kIT\nPCidt5Rr4iiZiGkpZeVq1WdHHEWPzjm0ZxHHtrmsyrAdlscfdWRcrF6S1YYIFIt5\nh90nR+97GPvji/YoAnBabLmt\n-----END PRIVATE KEY-----\n",
+  "client_email": "pepsi-coke@pepsi-coke.iam.gserviceaccount.com",
+  "client_id": "101095880190919702926",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pepsi-coke%40pepsi-coke.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
