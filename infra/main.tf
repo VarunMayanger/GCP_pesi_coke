@@ -31,7 +31,7 @@ data "google_dns_managed_zone""dns_zone"{
 
 # Add IP to DNS zone
 resource "google_dns_record_set" "website"{
-  name = "website.${data.google_dns_managed_zone.dns_zone.dns_name}"
+  name = data.google_dns_managed_zone.dns_zone.dns_name
   type = "A"
   ttl = 300
   managed_zone =  data.google_dns_managed_zone.dns_zone.name
@@ -64,20 +64,20 @@ resource "google_compute_url_map" "website" {
 }
 
 # Create HTTPS certificate
-resource "google_compute_managed_ssl_certificate" "website" {
+/*resource "google_compute_managed_ssl_certificate" "website" {
   provider = google-beta
   name     = "website-cert"
   managed {
     domains = [google_dns_record_set.website.name]
   }
-}
+}*/
 
 # Create Load Balancer
-resource "google_compute_target_https_proxy" "website" {
+resource "google_compute_target_http_proxy" "website" {
   provider         = google
   name             = "website-target-proxy"
   url_map          = google_compute_url_map.website.self_link
-  ssl_certificates = [google_compute_managed_ssl_certificate.website.self_link]
+  # ssl_certificates = [google_compute_managed_ssl_certificate.website.self_link]
 }
 
 # GCP forwarding rule
@@ -88,5 +88,5 @@ resource "google_compute_global_forwarding_rule" "default" {
   ip_address            = google_compute_global_address.website.address
   ip_protocol           = "TCP"
   port_range            = "80"
-  target                = google_compute_target_https_proxy.website.self_link
+  target                = google_compute_target_http_proxy.website.self_link
 }
